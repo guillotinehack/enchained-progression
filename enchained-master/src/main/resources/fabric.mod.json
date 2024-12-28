@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "enchainedmod",
+	"version": "${version}",
+	"name": "Enchained",
+	"description": "Reworks progression, wood/natural > stone/flint > iron/copper > diamond/netherite.",
+	"authors": [
+		"guillotinehack"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/enchained/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.guillotine.enchained.Enchained"
+		],
+		"client": [
+			"net.guillotine.enchained.EnchainedModClient"
+		],
+		"fabric-datagen": [
+			"net.guillotine.enchained.EnchainedDataGenerator"
+		]
+	},
+	"mixins": [
+		"enchained.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

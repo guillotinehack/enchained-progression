@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "tool",
+  "key": {
+    "F": {
+      "item": "minecraft:flint"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "N": {
+      "item": "minecraft:iron_nugget"
+    },
+    "f": {
+      "item": "enchained:fiber"
+    }
+  },
+  "pattern": [
+    "fLf",
+    "FNF",
+    "LLL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "enchained:sling"
+  }
+}

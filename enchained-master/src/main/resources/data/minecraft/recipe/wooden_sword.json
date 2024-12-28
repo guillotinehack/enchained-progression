@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "tool",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "F": {
+      "item": "enchained:fiber"
+    }
+  },
+  "pattern": [
+    " S ",
+    "FSF",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:wooden_sword"
+  }
+}
